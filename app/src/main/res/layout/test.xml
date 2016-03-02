@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+ tools:context=".MainActivity">
+
+
+<LinearLayout  android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:weightSum="4"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="#ff0000"
+        android:layout_height="match_parent" />
+    <TextView
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="#ff00ff"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="#ffff00"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="#00ff00"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+    <RelativeLayout  android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/txt"
+            android:text="@string/mybutton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+             />
+    </RelativeLayout>
+</LinearLayout>
