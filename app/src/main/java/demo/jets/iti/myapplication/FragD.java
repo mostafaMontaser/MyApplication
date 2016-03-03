@@ -21,4 +21,9 @@ public class FragD extends Fragment{
     public void changeData(String s){
         textView.setText(s);
     }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 }

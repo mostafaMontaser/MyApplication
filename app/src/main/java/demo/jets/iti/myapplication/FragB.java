@@ -26,4 +26,5 @@ public class FragB extends Fragment{
     public void onResume() {
         super.onResume();
     }
+
 }
